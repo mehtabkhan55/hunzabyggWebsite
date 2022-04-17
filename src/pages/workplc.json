@@ -1,0 +1,370 @@
+ [
+  {
+    "id": 1,
+    "imge": "roomImges/room1.jpg",
+    "catagory": "Rooms"
+  },
+  {
+    "id": 2,
+    "imge": "roomImges/room2.jpg",
+    "catagory": "Rooms"
+  },
+  {
+    "id": 3,
+    "imge": "roomImges/room3.jpg",
+    "catagory": "Rooms"
+  },
+  {
+    "id": 4,
+    "imge": "roomImges/room4.jpg",
+    "catagory": "Rooms"
+  },
+  {
+    "id": 5,
+    "imge": "roomImges/room5.jpg",
+    "catagory": "Rooms"
+  },
+  {
+    "id": 6,
+    "imge": "roomImges/room6.jpg",
+    "catagory": "Rooms"
+  },
+  {
+    "id": 7,
+    "imge": "kImges/k1.jpg",
+    "catagory": "Kitchen"
+  },
+  {
+    "id": 8,
+    "imge": "kImges/k2.jpg",
+    "catagory": "Kitchen"
+  },
+  {
+    "id": 9,
+    "imge": "kImges/k3.jpeg",
+    "catagory": "Kitchen"
+  },
+  {
+    "id": 10,
+    "imge": "kImges/k4.jpg",
+    "catagory": "Kitchen"
+  },
+  {
+    "id": 11,
+    "imge": "kImges/k5.jpg",
+    "catagory": "Kitchen"
+  },
+  {
+    "id": 12,
+    "imge": "kImges/k6.jpg",
+    "catagory": "Kitchen"
+  },
+  {
+    "id": 13,
+    "imge": "doorImges/door1.jpg",
+    "catagory": "Door"
+  },
+  {
+    "id": 14,
+    "imge": "doorImges/door2.jpg",
+    "catagory": "Door"
+  },
+  {
+    "id": 15,
+    "imge": "doorImges/door3.jpg",
+    "catagory": "Door"
+  },
+  
+  {
+    "id": 19,
+    "imge": "wallImges/wall5.jpg",
+    "catagory": "Walls"
+  },
+  {
+    "id": 20,
+    "imge": "wallImges/wall1.jpg",
+    "catagory": "Walls"
+  },
+  {
+    "id": 21,
+    "imge": "wallImges/wall2.jpg",
+    "catagory": "Walls"
+  },
+  {
+    "id": 22,
+    "imge": "wallImges/wall3.jpg",
+    "catagory": "Walls"
+  },
+  {
+    "id": 23,
+    "imge": "wallImges/wall4.jpg",
+    "catagory": "Walls"
+  },
+  {
+    "id": 24,
+    "imge": "wallImges/wall5.jpg",
+    "catagory": "Walls"
+  },
+  {
+    "id": 25,
+    "imge": "windowImges/w1.jpg",
+    "catagory": "Windows"
+  },
+  {
+    "id": 26,
+    "imge": "windowImges/w2.jpg",
+    "catagory": "Windows"
+  },
+  {
+    "id": 27,
+    "imge": "windowImges/w3.jpg",
+    "catagory": "Windows"
+  },
+  {
+    "id": 28,
+    "imge": "windowImges/window1.jpg",
+    "catagory": "Windows"
+  },
+  {
+    "id": 29,
+    "imge": "windowImges/window2.jpg",
+    "catagory": "Windows"
+  },
+  {
+    "id": 30,
+    "imge": "windowImges/window3.jpg",
+    "catagory": "Windows"
+  },
+  {
+    "id": 31,
+    "imge": "paintImges/paint1.jpg",
+    "catagory": "Paint"
+  },
+  {
+    "id": 32,
+    "imge": "paintImges/paint2.jpg",
+    "catagory": "Paint"
+  },
+  {
+    "id": 33,
+    "imge": "paintImges/paint3.jpg",
+    "catagory": "Paint"
+  },
+  {
+    "id": 34,
+    "imge": "paintImges/paint4.jpeg",
+    "catagory": "Paint"
+  },
+  {
+    "id": 35,
+    "imge": "paintImges/paint5.jpg",
+    "catagory": "Paint"
+  },
+  
+  {
+    "id": 37,
+    "imge": "wpaper/wpaper.jpg",
+    "catagory": "Wall Paper"
+  },
+  {
+    "id": 38,
+    "imge": "wpaper/wpaper2.jpg",
+    "catagory": "Wall Paper"
+  },
+  {
+    "id": 39,
+    "imge": "wpaper/wpaper2.jpg",
+    "catagory": "Wall Paper"
+  },
+  {
+    "id": 40,
+    "imge": "wpaper/wpaper3.jpg",
+    "catagory": "Wall Paper"
+  },
+  {
+    "id": 41,
+    "imge": "wpaper/wpaper4.jpg",
+    "catagory": "Wall Paper"
+  },
+  
+  {
+    "id": 43,
+    "imge": "floorImges/f1.jpeg",
+    "catagory": "Floor"
+  },
+  {
+    "id": 44,
+    "imge": "floorImges/f2.jpg",
+    "catagory": "Floor"
+  },
+  {
+    "id": 45,
+    "imge": "floorImges/f3.jpg",
+    "catagory": "Floor"
+  },
+  {
+    "id": 46,
+    "imge": "floorImges/f4.jpg",
+    "catagory": "Floor"
+  },
+  {
+    "id": 47,
+    "imge": "floorImges/f5.jpg",
+    "catagory": "Floor"
+  },
+  {
+    "id": 48,
+    "imge": "floorImges/floor2.jpg",
+    "catagory": "Floor"
+  },
+  {
+    "id": 49,
+    "imge": "fasadPImges/fasadP1.jpg",
+    "catagory": "Fasadpanel"
+  },
+  {
+    "id": 50,
+    "imge": "fasadPImges/fasadP2.jpg",
+    "catagory": "Fasadpanel"
+  },
+  {
+    "id": 51,
+    "imge": "fasadPImges/fasadP3.jpg",
+    "catagory": "Fasadpanel"
+  },
+  {
+    "id": 52,
+    "imge": "fasadPImges/fp1.jpg",
+    "catagory": "Fasadpanel"
+  },
+  {
+    "id": 53,
+    "imge": "fasadPImges/fp2.jpg",
+    "catagory": "Fasadpanel"
+  },
+  {
+    "id": 54,
+    "imge": "fasadPImges/fp3.jpg",
+    "catagory": "Fasadpanel"
+  },
+  {
+    "id": 55,
+    "imge": "malningImges/m1.jpg",
+    "catagory": "Fasadmalning"
+  },
+  {
+    "id": 56,
+    "imge": "malningImges/m2.jpg",
+    "catagory": "Fasadmalning"
+  },
+  {
+    "id": 57,
+    "imge": "malningImges/m3.jpg",
+    "catagory": "Fasadmalning"
+  },
+  {
+    "id": 58,
+    "imge": "malningImges/m4.jpg",
+    "catagory": "Fasadmalning"
+  },
+  {
+    "id": 59,
+    "imge": "malningImges/m5.jpg",
+    "catagory": "Fasadmalning"
+  },
+  {
+    "id": 60,
+    "imge": "malningImges/malning.jpg",
+    "catagory": "Fasadmalning"
+  },
+  {
+    "id": 61,
+    "imge": "altanImges/0.jpg",
+    "catagory": "Altan"
+  },
+  {
+    "id": 62,
+    "imge": "altanimges/1.jpg",
+    "catagory": "Altan"
+  },
+  {
+    "id": 63,
+    "imge": "altanimges/2.jpg",
+    "catagory": "Altan"
+  },
+  {
+    "id": 64,
+    "imge": "altanimges/3.jpg",
+    "catagory": "Altan"
+  },
+  {
+    "id": 65,
+    "imge": "altanimges/altan0.jpg",
+    "catagory": "Altan"
+  },
+  {
+    "id": 66,
+    "imge": "altanimges/altan2.jpg",
+    "catagory": "Altan"
+  },
+  {
+    "id": 67,
+    "imge": "staketImges/staket.jpg",
+    "catagory": "Staket"
+  },
+  {
+    "id": 68,
+    "imge": "staketImges/staket1.jpg",
+    "catagory": "Staket"
+  },
+  {
+    "id": 69,
+    "imge": "staketImges/staket2.jpg",
+    "catagory": "Staket"
+  },
+  {
+    "id": 70,
+    "imge": "staketImges/staket3.jpg",
+    "catagory": "Staket"
+  },
+  {
+    "id": 71,
+    "imge": "staketImges/staket4.jpg",
+    "catagory": "Staket"
+  },
+  {
+    "id": 72,
+    "imge": "staketImges/staket5.jpg",
+    "catagory": "Staket"
+  },
+  {
+    "id": 73,
+    "imge": "trapporImges/trappor.jpg",
+    "catagory": "Trappor"
+  },
+  {
+    "id": 74,
+    "imge": "trapporImges/trappor1.jpg",
+    "catagory": "Trappor"
+  },
+  {
+    "id": 75,
+    "imge": "trapporImges/trappor2.jpg",
+    "catagory": "Trappor"
+  },
+  {
+    "id": 76,
+    "imge": "trapporImges/trappor3.jpg",
+    "catagory": "Trappor"
+  },
+  {
+    "id": 77,
+    "imge": "trapporImges/trappor4.jpg",
+    "catagory": "Trappor"
+  },
+  {
+    "id": 78,
+    "imge": "trapporImges/trappor5.jpg",
+    "catagory": "Trappor"
+  }
+]
