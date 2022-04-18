@@ -20,14 +20,14 @@ export default function Gallery(){
                 <div className="row">
                     {
                         item.map((elem)=>{
-                            const{imge , catagory,id} = elem;
+                            const{imge,catagory,id} = elem;
                             return(
                                 <>
                                     <div className="col-4 col-md-3 col-lg-2 my-2">
                                         <img src={imge} alt="" className="img-fluid" data-bs-toggle="modal" data-bs-target= {"#lightbox-"+id}
                                         style={{height:"100px",width:"150%"}} />
                                     </div>
-                                    <div class="modal fade" id={"lightbox-"+id} tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                    <div class="modal fade" id={"lightbox-"+id} tabIndex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
                                         <div className="modal-dialog modal-lg modal-dialog-centered">
                                             <div className="modal-content">
                                                 <div className="modal-header">

@@ -1,9 +1,10 @@
-body{
+*{
     margin: 0;
     padding: 0;
 }
 /* navbar menu buttton style */
 nav{
+    width: 100vw;
     background-color: #0f396b;
 }
 .menu{
@@ -43,9 +44,10 @@ nav{
 }
 
 /* slider style */
-.slider img{
-    height: 75vh;
+
+.imgslider img{
     width: 100vw;
+    height: 75vh;
     background-repeat: no-repeat;
     background-position: center,center;
     background-size: cover;
@@ -119,9 +121,10 @@ nav{
     color: #0f396b;
  }
  .btn-close{
-     transition: 0.3s;
+     transition: 0.2s;
  }
- .btn-close:hover{
+ 
+ .btn-close:active{
      transform: rotate(185deg);
  }
  /* contact us */
