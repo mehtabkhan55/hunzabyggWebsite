@@ -1,8 +1,12 @@
 import React from 'react'
+import Navigationbar from '../components/Navigationbar'
+import Footer from '../components/Footer'
 
 export default function ContectUs() {
     return (
         <div>
+            <Navigationbar />
+            
             <div className="container contactText"style = {{marginTop:'100px', fontFamily:' Arial, Helvetica, sans-serif'}}>
                 <div className="row">
                     <div className="col-12 ">
@@ -28,8 +32,8 @@ export default function ContectUs() {
                         <p >Opening hours: Monday – Friday at 08:00 AM – 04:30 PM</p>
                         <p >E-post : <a href="mailto:hunzabygg@gmail.com">
                             Hunzabygg@gmail.com</a></p>
-                        <p >E-post : <a href="mailto:snickare.mehtab@gmail.com">
-                            Snockare.mehtab@gmail.com</a></p>
+                        <p >E-post : <a href="mailto:Snickare.mehtab@gmail.com">
+                        Snickare.mehtab@gmail.com</a></p>
                     </div>
                     <div className="col-md-6 col-sm-12">
                         <div >
@@ -38,6 +42,7 @@ export default function ContectUs() {
                     </div>
                 </div>
             </div>
+            <Footer/>
         </div>
     )
 }

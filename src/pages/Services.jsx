@@ -1,18 +1,12 @@
 import React from 'react'
 import { useState } from 'react';
-// import {categ} from "./category"
-import Workplc from "./workplc.json"
+import Navigationbar from '../components/Navigationbar';
+import Workplc from "./workplc.json";
+import Footer from '../components/Footer';
 
 export default function Services() {
-    const[imgs ,setImgs] = useState(Workplc)
-    // const[markup,setMarkup]=useState("")
-    // const filturItem =(catgItem)=>{
-    //     const uploadItems = categ.filter((curElem)=>{
-    //         return curElem.catagory == catgItem
-    //     }) 
-    //     setImgs(uploadItems)
-    // }
-    
+    const[imgs ,setImgs] = useState(Workplc);
+
     const showImages = (type)=>{
         let images = Workplc.filter(img=>{
             return img.catagory === type
@@ -20,36 +14,16 @@ export default function Services() {
         })
         setImgs(images)
     }
-    // useEffect(()=>{
-    //     console.log(imgs);
-    //     let img =[
-    //         {
-    //             id: 1,
-    //             imge: "roomImges/room1.jpg",
-    //             catagory: "Rooms"
-    //           },
-    //     ]
-    //     console.log(categ)
-    //     console.log('Wokring')
-    //    let imgmarkup =  img.map((pic)=>{
-                            
-    //         return(
-    //             <>
-    //                 <div className="col-3 m-2">
-    //                 <img src={pic.imge} alt="" style={{width:"150%", height:"100px"}} />
-                    
-    //             </div>
-    //             </>
-    //         )
-    //     })
-    //     setMarkup(imgmarkup)
-    // },[]) 
+     
     return (
         <div style = {{fontFamily:' Arial, Helvetica, sans-serif'}}>
+            <Navigationbar />
             <div className="container " style = {{marginTop :'150px'}}>
                 <div className="row">
                     <div className="col services">
                         
+                    <button href="" onClick={()=>setImgs(Workplc)}>All</button>
+
                         <button href="" onClick={()=>showImages('Rooms')}>Rooms</button>
                         <button href="" onClick={()=>showImages('Windows')}>Window</button>
                         <button href="" onClick={()=>showImages('Walls')}>Wall</button>
@@ -79,7 +53,7 @@ export default function Services() {
                             
                             return(
                                 <>
-                                    <div className="col-sm-4 col-md-3 my-2">
+                                    <div className="col-6 col-md-3 my-2">
                                     <img src={pic.imge} alt="" style={{ height:"100px" , width:"100%"}} />
                                     
                                 </div>
@@ -90,6 +64,7 @@ export default function Services() {
                     }
               </div>      
             </div>
+            <Footer/>
         </div>
     )
 }

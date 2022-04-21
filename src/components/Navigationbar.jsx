@@ -24,16 +24,16 @@ export default function Navigationbar() {
                     <div className="collapse navbar-collapse" id="navbar">                        
                     <ul className="navbar-nav  ms-auto">
                             <li className="nav-item ">
-                                <Link className="nav-link active text-light" aria-current="page" to="/">Home</Link>
+                                <Link className="nav-link active text-light " aria-current="page" to="/">Home</Link>
                             </li>
                             <li class="nav-item ">
-                                <Link className="nav-link text-light" to="/services">Our Services</Link>
+                                <Link className="nav-link text-light " to="/services">Our Services</Link>
                             </li>
                             <li class="nav-item ">
-                                <Link className="nav-link text-light" to="/gallery">Gallery</Link>
+                                <Link className="nav-link text-light " to="/gallery">Gallery</Link>
                             </li>
                             <li class="nav-item me-5">
-                                <Link className="nav-link text-light" to="/contact" >Contact Us</Link>
+                                <Link className="nav-link text-light " to="/contact" >Contact Us</Link>
                             </li>
                             
                         </ul>

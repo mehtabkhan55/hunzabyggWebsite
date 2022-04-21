@@ -1,12 +1,15 @@
 import React from "react";
 import { useState } from "react";
+import Navigationbar from "../components/Navigationbar";
 import Workplc from "../pages/workplc";
-
+import Footer from "../components/Footer";
 
 export default function Gallery(){
     const[item] = useState(Workplc);
+    
     return(
         <>
+            <Navigationbar/>
             <div className="container-fluid" style={{marginTop:"100px",fontFamily:' Arial, Helvetica, sans-serif'}}>
                 <div className="row">
                     <div className="col text-center">
@@ -16,7 +19,6 @@ export default function Gallery(){
                 </div>
             </div>
             <div className="container-fluid">
-                    
                 <div className="row">
                     {
                         item.map((elem)=>{
@@ -24,6 +26,7 @@ export default function Gallery(){
                             return(
                                 <>
                                     <div className="col-4 col-md-3 col-lg-2 my-2">
+                                        
                                         <img src={imge} alt="" className="img-fluid" data-bs-toggle="modal" data-bs-target= {"#lightbox-"+id}
                                         style={{height:"100px",width:"150%"}} />
                                     </div>
@@ -36,19 +39,18 @@ export default function Gallery(){
                                                 </div>
                                                 <div className="modal-body">
                                                     <img src={imge} alt="" className="img-fluid" style={{height:"300px",width:"300%"}} />
+                                                                                             
                                                 </div>
                                             </div>
                                         </div>
                                     </div>
                                 </>
-                        
-                                
                             )
                         })
                     }
-
                 </div>
             </div>
+            <Footer/>
         </>
     )
 }

@@ -17,7 +17,7 @@ export default function Footer() {
                         <h5 className = "text-light">Contect Us</h5>
                         <a href="tel:0046737055649" className = "text-decoration-none text-light">tel : 0046737055649</a><br />
                         <a href="mailto:hunzabygg@gmail.com" className = "text-decoration-none text-light">E-post : Hunzabygg@gmail.com</a><br />
-                        <a href="mailto:snickare.mehtab@gmail.com" className = "text-decoration-none text-light">E-post : Snickare.mehtab@gmail.com</a>
+                        <a href="mailto:Snickare.mehtab@gmail.com" className = "text-decoration-none text-light">E-post : Snickare.mehtab@gmail.com</a>
                     </div>
                     <div className="col-md-3 pt-2">
                         <h5 className = "text-light">Follow Us</h5>

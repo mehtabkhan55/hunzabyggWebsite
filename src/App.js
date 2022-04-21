@@ -1,18 +1,18 @@
 import React from 'react'
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { BrowserRouter , Switch,Route } from 'react-router-dom';
-import Navigationbar from './components/Navigationbar';
-import Footer from './components/Footer';
+// import Footer from './components/Footer';
 import Gallery from './pages/Gallary';
 import Home from "./pages/Home";
 import Services from './pages/Services';
 import ContectUs from './pages/ContectUs';
 import "../src/style.css"
+
 export default function App() {
   return (
     <div>
        <BrowserRouter>
-       <Navigationbar />
+       
          <Switch>
            <Route path = "/services">
               <Services />
@@ -28,7 +28,7 @@ export default function App() {
               <Home />
            </Route>
          </Switch>
-         <Footer/>
+         
        </BrowserRouter>
     </div>
   )

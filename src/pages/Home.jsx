@@ -1,7 +1,11 @@
 import React from 'react'
+import Navigationbar from '../components/Navigationbar'
+import Footer from '../components/Footer'
 
 export default function Home() {
     return (
+        <>
+            <Navigationbar />
         <div className="container-fluid" style = {{fontFamily:' Arial, Helvetica, sans-serif' , marginTop:"80px"}}>
             <div className="imgslider">
                 <figure>
@@ -36,5 +40,7 @@ export default function Home() {
                 </div>
             </div>
         </div>
+            <Footer/>
+        </>
     )
 }
