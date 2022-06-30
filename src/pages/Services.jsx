@@ -22,7 +22,7 @@ export default function Services() {
                 <div className="row">
                     <div className="col services">
                         
-                    <button href="" onClick={()=>setImgs(Workplc)}>All</button>
+                        <button href="" onClick={()=>setImgs(Workplc)}>All</button>
 
                         <button href="" onClick={()=>showImages('Rooms')}>Rooms</button>
                         <button href="" onClick={()=>showImages('Windows')}>Window</button>
@@ -54,9 +54,10 @@ export default function Services() {
                             return(
                                 <>
                                     <div className="col-6 col-md-3 my-2">
-                                    <img src={pic.imge} alt="" style={{ height:"100px" , width:"100%"}} />
-                                    
-                                </div>
+                                        <a href={pic.imge} data-lightbox="gridGallery" >
+                                            <img src={pic.imge} alt="services imge" className="img-fluid" style={{height:"130px",width:"150%"}}/>
+                                        </a>
+                                    </div>
                                 </>
                             )
                         })

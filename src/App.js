@@ -1,12 +1,11 @@
 import React from 'react'
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { BrowserRouter , Switch,Route } from 'react-router-dom';
-// import Footer from './components/Footer';
-import Gallery from './pages/Gallary';
 import Home from "./pages/Home";
 import Services from './pages/Services';
-import ContectUs from './pages/ContectUs';
+import ContactUs from './pages/ContactUs';
 import "../src/style.css"
+import GallerySlider from './pages/GallerySlider';
 
 export default function App() {
   return (
@@ -18,11 +17,10 @@ export default function App() {
               <Services />
            </Route>
            <Route path = "/gallery">
-              <Gallery />
-              
+              <GallerySlider />
            </Route>
            <Route path = "/contact">
-              <ContectUs />
+              <ContactUs />
            </Route>
            <Route excat path = "/">
               <Home />

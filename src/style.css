@@ -1,7 +1,9 @@
+
 *{
     margin: 0;
     padding: 0;
 }
+
 /* navbar menu buttton style */
 nav{
     width: 100vw;
@@ -43,69 +45,6 @@ nav{
     opacity: 0;
 }
 
-/* slider style */
-
-.imgslider img{
-    width: 100vw;
-    height: 75vh;
-    background-repeat: no-repeat;
-    background-position: center,center;
-    background-size: cover;
-}
-.profile{
-    float:right;
-    height:70%;
-    width: 100%;
-    margin-top: 35px;
-}
-
-
-.imgslider{
-    overflow: hidden;
-}
-.imgslider figure{
-    position: relative;
-    width: 500%;
-    height: 400px;
-    left: 0;
-    margin: 0;
-    animation: 20s slider infinite;
-}
-.imgslider figure img{
-    width: 20%;
-    height: 400px;
-    float: left;
-}
- @keyframes slider{ 
-    0%{
-        left: 0%;
-    }
-    20%{
-        left: 0%;
-    }
-    25%{
-        left: -100%;
-    }
-    45%{
-        left: -100%;
-    }
-    50%{
-        left: -200%;
-    }
-    70%{
-        left: -200%;
-    }
-    75%{
-        left: -300%;
-    }
-    95%{
-        left: -300%;
-    }
-    100%{
-        left: -400%;
-    }
-    
-} 
  /*our services  */
 
  .services button{
@@ -142,3 +81,21 @@ nav{
     letter-spacing: 1px;
     padding-bottom: 0%;
  }
+
+
+ /* slider */
+ .imgSize{
+     width: 100%;
+     height: 100px;
+ }
+/* grid */
+
+.lb-outerContainer{
+    width: 100%;
+    height: 100%;
+    
+}
+.lb-image{
+    width: 100%;
+    height: 100%;
+}

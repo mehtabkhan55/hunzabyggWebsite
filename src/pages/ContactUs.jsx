@@ -2,7 +2,7 @@ import React from 'react'
 import Navigationbar from '../components/Navigationbar'
 import Footer from '../components/Footer'
 
-export default function ContectUs() {
+export default function ContactUs() {
     return (
         <div>
             <Navigationbar />
@@ -10,7 +10,7 @@ export default function ContectUs() {
             <div className="container contactText"style = {{marginTop:'100px', fontFamily:' Arial, Helvetica, sans-serif'}}>
                 <div className="row">
                     <div className="col-12 ">
-                        <h2>Contect Us</h2>
+                        <h2>Contact Us</h2>
                         <p><b>
                         How happy we are that you want to contact us! Below you will find contact information for all parts of our organization.
                         If you are unsure of where to turn, you are always welcome to contact our exchange.
