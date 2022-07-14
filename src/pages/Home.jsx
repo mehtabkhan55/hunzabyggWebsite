@@ -48,10 +48,18 @@ export default function Home() {
                             Velit optio dolores voluptas! Deleniti ea beatae vero dicta voluptate id 
                             quaerat accusamus soluta. Voluptatem, incidunt minima.
                         </p>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                            Velit optio dolores voluptas! Deleniti ea beatae vero dicta voluptate id 
+                            quaerat accusamus soluta. Voluptatem, incidunt minima.
+                        </p>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                            Velit optio dolores voluptas! Deleniti ea beatae vero dicta voluptate id 
+                            quaerat accusamus soluta. Voluptatem, incidunt minima.
+                        </p>
                     </div>
                     <div className="col-md-6 col-sm-12">
                         <img src="profile/profile.jpg" alt="profile imge" 
-                        className ="profile"/>
+                        className ="profile img-fluid"/>
                     </div>
                 </div>
             </div>

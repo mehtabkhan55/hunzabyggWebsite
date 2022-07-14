@@ -1,6 +1,6 @@
 import React from 'react'
 import '../App.css'
-//import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+// import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 export default function Footer() {
     return (
         <div style = {{fontFamily:' Arial, Helvetica, sans-serif',background: "#0f396b"}}>
