@@ -8,7 +8,7 @@ export default function Home() {
         <>
             <Navigationbar />
             <div className="container-fluid" style = {{fontFamily:' Arial, Helvetica, sans-serif' , marginTop:"80px"}}>
-            <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+            <div id="carouselExampleControls" className="carousel slide" data-bs-ride="carousel">
               <div className="carousel-inner">
                 <div className="carousel-item active">
                   <img src="roomImges/room5.jpg" className="d-block w-100 "style={{height :400}} alt="room" />

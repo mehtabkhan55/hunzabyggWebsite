@@ -26,13 +26,13 @@ export default function Navigationbar() {
                             <li className="nav-item ">
                                 <Link className="nav-link active text-light " aria-current="page" to="/">Home</Link>
                             </li>
-                            <li class="nav-item ">
+                            <li className="nav-item ">
                                 <Link className="nav-link text-light " to="/services">Our Services</Link>
                             </li>
-                            <li class="nav-item ">
+                            <li className="nav-item ">
                                 <Link className="nav-link text-light " to="/gallery">Gallery</Link>
                             </li>
-                            <li class="nav-item me-5">
+                            <li className="nav-item me-5">
                                 <Link className="nav-link text-light " to="/contact" >Contact Us</Link>
                             </li>
                             
